@@ -18,11 +18,11 @@ p {
   position: relative;
 }
 
-.section { 
+.section {
   background-color: rgb(180, 180, 180);
     border: 2px solid black;
-    margin-top: 20px; 
-    margin-right: 20px; 
+    margin-top: 20px;
+    margin-right: 20px;
     padding: 3px;
     text-align: justify;
     position: relative;
@@ -59,7 +59,7 @@ span {
 /* Desktop view */
 
 @media (min-width: 992px) {
- 
+
   .col-lg-4 {
     width: 33.33%;
     float: left;
@@ -68,7 +68,7 @@ span {
 
 /* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
- 
+
   .col-md-6 {
     width: 50%;
     float: left;
@@ -80,8 +80,8 @@ span {
 }
 /* Smartphone view */
 @media (max-width: 767px)  {
-  
-  .col-sx-12 {
+
+  .col-sd-12 {
     float: left;
     width: 100%;
   }
