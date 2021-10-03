@@ -1,139 +1,88 @@
 
-/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
+
 h1 {
-  margin-bottom: 15px;
+  font-size: 27px;
+  font-family: Tahoma;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
 }
 
 p {
-  font-family: Helvetica;
+  padding: 15px 5px 0px 5px;
+  font-family: Tahoma;
+  font-size: 16px;
+  position: relative;
 }
 
-/* Simple Responsive Framework. */
+.section { 
+  background-color: rgb(180, 180, 180);
+    border: 2px solid black;
+    margin-top: 20px; 
+    margin-right: 20px; 
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+ }
+
+span {
+  font-size: 20px;
+  width: 150px;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  float: right; top :0; right: 0; margin: 0;
+  position: absolute;
+}
+
+#t1 {
+  background-color: mistyrose;
+  color: black;
+}
+#t2 {
+  background-color: indianred;
+  color: rgb(250, 250, 250);
+}
+#t3 {
+  background-color: yellowgreen;
+  color: black;
+}
+}
+
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
+/* Desktop view */
+
 @media (min-width: 992px) {
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
+ 
   .col-lg-4 {
     width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
+    float: left;
   }
 }
 
-/********** Medium devices only **********/
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
-  
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
+ 
   .col-md-6 {
     width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
+    float: left;
   }
   .col-md-12 {
     width: 100%;
+    float: left;
   }
 }
-
-/********** Small devices only **********/
-@media (max-width: 767px) {
+/* Smartphone view */
+@media (max-width: 767px)  {
   
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
+  .col-sx-12 {
+    float: left;
     width: 100%;
   }
 }
