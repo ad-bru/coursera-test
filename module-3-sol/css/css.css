@@ -1,67 +1,97 @@
-* {
-    box-sizing: border-box;
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
 }
 
-#header-nav {
-    background-color: #AAA5A5;
-    border-radius: 0;
-    border: 0;
-    border: solid black 3px;
-    margin-bottom: 0;
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
 
-.navbar-brand {
-    padding-left: 0;
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-
-.navbar-brand h1 {
-    font-family: 'Alfa Slab One';
-    font-size: 1.5em;
-    color: black;
-    margin-top: 0;
-    margin-left: 15px;
-    margin-bottom: 0;
+.navbar-brand:hover{
+	color: white;
 }
 
-.text-center {
-    font-family: 'Sofia';
-    font-size: 38px;
-    font-weight: bold;
-    position: relative;
-    margin-top: 55px;
+.nav{
+	margin: 0;
+	padding: 0;
 }
 
-#text {
-    margin: 10px;
-    background-color: #AAA5A5;
-    font-family: 'Alfa Slab One';
-    position: relative;
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
 }
 
 
-
-#nav-list {
-    margin-top: 10px;
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
 }
 
-#nav-list a {
-    text-align: center;
-    color: black;
-    font-family: 'Alfa Slab One';
-    font-weight: 100;
-    background-color: #AAA5A5;
+li{
+	box-sizing: border-box;
+	width: 100%;
 }
 
-#nav-list a:hover {
-    background-color: #AEAE52;
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
 }
 
-.navbar-default .navbar-collapse {
-	margin-top:0px;
-	border: 0px;
-	list-style-type: none;
-}  
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+	margin: 20px;
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#top{
+
+}
